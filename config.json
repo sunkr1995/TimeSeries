@@ -1,0 +1,17 @@
+{
+    "train_data_path": "234.csv",
+    "test_data_path": "234.csv",
+    "input_length": 10,
+    "output_length": 5,
+    "num_variables": 1,
+    "batch_size": 32,
+    "hidden_size": 128,
+    "num_layers": 3,
+    "dropout": 0.5,
+    "rnn_type":"gru",
+    "learning_rate": 0.01,
+    "num_epochs": 500,
+    "lr_step_size": 50,
+    "lr_gamma": 0.1,
+    "best_model_save_path": "best_model.pth"
+}
