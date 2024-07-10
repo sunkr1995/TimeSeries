@@ -574,5 +574,5 @@ class NBEATSModel(nn.Module):
         y = y.view(
             y.shape[0], self.output_chunk_length, self.input_dim
         )[:, :, : self.output_dim]
-
+        ## 后续将stack_residual 作为特征抽出
         return y

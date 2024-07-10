@@ -25,4 +25,6 @@ class RNNModel(nn.Module):
         fc1_out = self.fc1(rnn_out)
         fc2_out = self.fc2(fc1_out)
         out = fc2_out.view(-1, self.output_length, self.num_variables)
+
+        ## 后续将fc1_out 作为特征抽出
         return out
