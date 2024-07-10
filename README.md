@@ -10,7 +10,7 @@ python main.py
 
 ## 待添加
 
-models文件夹下现仅有RNN model,待补充其他model
+models文件夹下现有RNN model、NBEATSModel,待补充其他model
 
 - 下一步准备添加
-NBEATSModel
+NHiTSModel
